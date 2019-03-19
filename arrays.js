@@ -1,9 +1,4 @@
 
-function addElementToBeginningOfArray(array, element) {
-array.unshift(element);
-return array;
-}
-
 function destructivelyAddElementToBeginningOfArray(array, element) {
 array.unshift(element);
 return array;
@@ -11,6 +6,11 @@ return array;
 
 function destructivelyRemoveElementFromBeginningOfArray(array, element){
   return array;
-}
+} 
 
-var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
+var chocolateBars = ["snickers", "hundred grand", "kitkat","skittles"];
+
+function addElementToBeginningOfArray(array, element) {
+array.unshift(element);
+return [element, ...array];
+}
