@@ -6,7 +6,7 @@ return array;
 
 function destructivelyRemoveElementFromBeginningOfArray(array, element){
   return array;
-} 
+}
 
 var chocolateBars = ["snickers", "hundred grand", "kitkat","skittles"];
 
