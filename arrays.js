@@ -8,7 +8,7 @@ return [element, ...array];
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
-  
+
 function AddElementToEndOfArray(array,element){
   return [...array, element]
 }
